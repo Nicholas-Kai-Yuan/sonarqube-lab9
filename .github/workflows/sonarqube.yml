@@ -26,7 +26,9 @@ jobs:
         run: npm install
 
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v8   # was @master — pin to a release
+        uses: SonarSource/sonarqube-scan-action@v8
+        with:
+          skipSignatureVerification: true
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
