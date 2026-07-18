@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "LAPTOP-1HPO4DG5",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus3.actions.githubusercontent.com/P1nY47mIyf0zisn6azfb1w4wqTq1ZVGWWW4RIo7FwdCMad6s0C/",
+  "gitHubUrl": "https://github.com/Nicholas-Kai-Yuan/sonarqube-lab9",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
